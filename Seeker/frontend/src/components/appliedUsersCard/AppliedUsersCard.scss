@@ -1,0 +1,100 @@
+.user-assign-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: rows;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 5px;
+  width: 800px;
+}
+
+.user-info {
+  display: inline;
+  padding-bottom: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 40px;
+}
+.svg{
+  width: 20px;
+  height: 20px;
+}
+.assign-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.assign-button:hover {
+  background-color: #0056b3;
+}
+
+.complete-status{
+  display: flex;
+  justify-content: space-around;
+  width: 450px;
+  .message{
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  .svg{
+    width: 30px;
+    height: auto;
+  }  
+}
+
+
+.assigned-button {
+  background-color: #FFB800;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  float: right;
+}
+.completed-button {
+  background-color: #21B414;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.completed-container{
+  display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .assigned-button{
+      font-size: 18px;
+    }
+    .box{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      gap: 100px;
+      .message{
+        display: flex;
+        font-size: 16px;
+    
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }  
+}
+
+.message{
+  float: left;
+}
